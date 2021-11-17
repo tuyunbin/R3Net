@@ -10,7 +10,7 @@ Tu, Yunbin, et al. ["R^3Net:Relation-embedded Representation Reconstruction Netw
 2. cd R3Net
 1. Make virtual environment with Python 3.5 
 2. Install requirements (`pip install -r requirements.txt`)
-3. Setup COCO caption eval tools ([github](https://github.com/mtanti/coco-caption) 
+3. Setup COCO caption eval tools ([github](https://github.com/mtanti/coco-caption)) 
 4. A Tesla P100 GPU or others.
 
 ## Data
