@@ -1,9 +1,17 @@
+# R^3Net:Relation-embedded Representation Reconstruction Network for Change Captioning
+This package contains the accompanying code for the following paper:
+
+Tu, Yunbin, et al. ["R^3Net:Relation-embedded Representation Reconstruction Network for Change Captioning."](https://aclanthology.org/2021.emnlp-main.735.pdf), which has appeared as long paper in the mian conference of EMNLP, 2021. 
+
+## We illustrate the training details as follows:
 
 ## Installation
+1. Clone this repository
+2. cd R3Net
 1. Make virtual environment with Python 3.5 
 2. Install requirements (`pip install -r requirements.txt`)
-3. Setup COCO caption eval tools ([github](https://github.com/tylin/coco-caption)) (Since the repo only supports Python 2.7, either create a separate virtual environment with Python 2.7 or modify the code to be compatible with Python 3.5).
-4. A Tesla P100 GPU.
+3. Setup COCO caption eval tools ([github](https://github.com/mtanti/coco-caption) 
+4. A Tesla P100 GPU or others.
 
 ## Data
 1. Download data from here: [google drive link](https://drive.google.com/file/d/1HJ3gWjaUJykEckyb2M0MB4HnrJSihjVe/view?usp=sharing)
@@ -93,4 +101,19 @@ python evaluate.py --results_dir ./experiments/R3NET+SSP/test_output/captions --
 ```
 The results are saved in `./experiments/R3NET+SSP/test_output/captions/eval_results.txt`
 
+If you find this helps your research, please consider citing:
+```
+@inproceedings{tu2021rˆ3net,
+  title={Rˆ3Net: Relation-embedded Representation Reconstruction Network for Change Captioning},
+  author={Tu, Yunbin and Li, Liang and Yan, Chenggang and Gao, Shengxiang and Yu, Zhengtao},
+  booktitle={Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing},
+  pages={9319--9329},
+  year={2021}
+}
+```
+
+## Contact
+My email is tuyunbin1995@foxmail.com
+
+Any discussions and suggestions are welcome!
 
