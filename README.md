@@ -103,12 +103,16 @@ The results are saved in `./experiments/R3NET+SSP/test_output/captions/eval_resu
 
 If you find this helps your research, please consider citing:
 ```
-@inproceedings{tu2021rˆ3net,
-  title={Rˆ3Net: Relation-embedded Representation Reconstruction Network for Change Captioning},
-  author={Tu, Yunbin and Li, Liang and Yan, Chenggang and Gao, Shengxiang and Yu, Zhengtao},
-  booktitle={Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing},
-  pages={9319--9329},
-  year={2021}
+@inproceedings{tu-etal-2021-r,
+    title = "{R}{\^{}}3{N}et:Relation-embedded Representation Reconstruction Network for Change Captioning",
+    author = "Tu, Yunbin  and
+      Li, Liang  and
+      Yan, Chenggang  and
+      Gao, Shengxiang  and
+      Yu, Zhengtao",
+    booktitle = "EMNLP",
+    year = "2021",
+    pages = "9319--9329",
 }
 ```
 
