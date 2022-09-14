@@ -211,7 +211,7 @@ def main(args):
                     train_label[i, tagtoix[w]] = 1.
 
     train_neg_label = np.zeros((len(all_imgs), 50))
-    for img, tag_list in train_captions_tag:
+    for img, tag_list in train_neg_captions_tag:
         i = int(img.split('.')[0].split('_')[-1])
         sents = tag_list
         for sent in sents:
